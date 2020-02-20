@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.otf');
+    src: url('../fonts/Montserrat.ttf')
+   } 
+   
+   body{ background: #f8f8f8;}
+   ul,li{ list-style: none; padding: 0;}
+   .am-header{ background: #fff;}
+   .am-header img{ height: 2.2rem;}
+   .am-offcanvas-bar{ width: 15rem;}
+   .am-menu-nav li a{ font-size: 1.2rem;}
+   .am-menu-nav li a.am-tb{ font-size: 1.4rem;}
+   
+   .am-gally-nav{ background: #fff; padding: 2rem 0;}
+   .am-gallery-default .am-gallery-item img{ display: block; width: 60%; margin: 0 auto;}
+   .am-gally-tit{ width: 100%; text-align: center;}
+   
+   .am-slider-a1 .am-control-nav li a{ background-color: rgba(255,255,255,.5); box-shadow: none;}
+   .am-slider-a1 .am-control-nav li a.am-active{ background-color: #fff;}
+   
+   .am-con-wrap{ background: #fff; margin-top: 2rem;}
+   .am-con-title{ border-bottom: solid 1px #f8f8f8; padding: 1rem 0; text-align: center;}
+   .am-con-title h3{ font-size: 2rem; color: #000; margin: 0; line-height: 1; font-weight: normal;}
+   .am-con-title span{ display: block; width: 2rem; height: 4px; background: #3285ff; margin: .5rem auto 0;}
+   /*首页-新闻*/
+   .am-con-idxNews{ padding-bottom: 2rem;}
+   .am-idx-nlist{ padding-top: 2rem;}
+   .am-idx-nlist li{ margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center;}
+   .am-idx-date{ width: 5rem; height: 5rem; background: #f9f8f6; padding: 10px 0;}
+   .am-idx-date h3{ text-align: center; font-family: Montserrat; color: #0081cc; font-size: 1.4rem; margin: 0; line-height: 1.2;}
+   .am-idx-date p{ text-align: center; font-size: 1rem; color: #333; margin: 0;}
+   .am-idx-txt{ display: block; flex: 1; margin: 0 1rem; height: 5rem; line-height: 5rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #333; font-size: 1.4rem;}
+   /*首页-业务领域*/
+   .am-idx-bus{ padding: 0 10px;}
+   .am-idx-blist{ width: 100%; display: flex; justify-content: space-between; padding: 2rem 0; margin: 0;}
+   .am-idx-blist li{ width: 32%; height: 20rem; margin: 0;}
+   .am-bg_mod{ width: 100%; height: 100%; display: flex; align-items: center;}
+   .am-mod_i1{ background: url(../img/index_b1.png) no-repeat;background-size: cover;}
+   .am-mod_i2{ background: url(../img/index_b2.png) no-repeat;background-size: cover;}
+   .am-mod_i3{ background: url(../img/index_b3.png) no-repeat;background-size: cover;}
+   .am-icon_mod{ width: 100%; height: 4rem; background: rgb(0,71,157,.4); text-align: center;}
+   .am-icon_mod p{ line-height: 4rem; text-align: center; font-size: 1.4rem; color: #fff; font-weight: bold;}
+   /*视频*/
+   .am-idx-video{ padding: 10px; display: flex; justify-content: space-between; background: #fff; margin-top: 2rem;}
+   .am-iv-con{ width: 60%; height: 15rem;}
+   .am-videobg{ width: 100%; height: 15rem; background: url(../img/index_video.png) no-repeat; background-size: cover; display: flex; align-items: center;}
+   .am-idx-vbtn{ width: 4rem; height: 4rem; display: inline-block; background: url(../img/btn_play.png) no-repeat; background-size: cover; margin: 0 auto;}
+   
+   .am-iv-r{ width: 36%; height: 15rem;}
+   .am-iv-rt{ margin-bottom: 1rem;}
+   .am-iv-ra{ display: block; width: 100%; height: 7rem; color: #fff; padding: 1rem 0 0 1rem;}
+   .am-iv-ra1{ background: url(../img/index_culture.png) no-repeat; background-size: cover;}
+   .am-iv-ra2{ background: url(../img/index_join.png) no-repeat; background-size: cover;}
+   .am-iv-ra h3{ margin: 0; font-size: 1.6rem;}
+   .am-iv-ra img{ width: 12%;}
+   /*footer*/
+   .am-copyright{ text-align: center; margin: 2rem auto 0;}
+   .am-copyright p{ text-align: center; font-size: 1.4rem; color: #656565; margin:0 0 0.5rem;}
+   
+   /* 关于我们 */
+   .about-banner-img img{
+        width:100%;
+        height:auto;
+   }
+   .about-nav-list{
+       box-sizing: border-box;
+       font-size:0;
+       width:100%;
+       background-color:#0080CB;
+   }
+   .about-nav-item{
+       display:inline-block;
+       width:25%;
+       text-align:center;
+       font-size:16px;
+       line-height: 60px;
+   }
+   .about-nav-item a{
+    color:white;
+    padding:4px 8px;
+    border-radius:5px;
+   }
+   .about-nav-item.active a{
+       color:#0080CB;
+       background-color:white;
+   }
+   .main_con{
+       width:100% !important;
+       padding:30px 12px;
+       background-color:white;
+   }
+   .about_img{
+       float: left;
+       width:50%;
+       height:auto;
+       padding:0 12px 0 0;
+   }
+   .con_abtCom p{
+    text-align: justify;
+    text-indent:32px;
+   }

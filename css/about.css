@@ -1,0 +1,40 @@
+.about_img{ float: left; margin: 0 30px 10px 0;}
+.con_abtCom p{ color: #666; font-size: 14px; line-height: 28px; text-align: justify; text-indent: 2em;}
+.tit_strate{ width: 100%; height: 60px; line-height: 60px; text-align: center; color: #0081cc; font-size: 24px; font-weight: 600; background: -webkit-linear-gradient(left, #fff , #f5f5f5, #fff);
+background: -o-linear-gradient(left, #fff , #f5f5f5, #fff); background: -moz-linear-gradient(left, #fff , #f5f5f5, #fff);  background: linear-gradient(left, #fff , #f5f5f5, #fff);}
+.con_strate{ width: 920px; display: flex; justify-content: space-between; margin: 60px auto 40px;}
+.as_b1{ height: 155px;}
+.txt_sl{ width: 280px; margin-right: 10px; padding-top: 20px;}
+.txt_sr{ width: 220px; margin-left: 10px; padding-top: 20px;}
+.con_strate h3{ font-size: 16px; font-weight: bold; color: #333;}
+.con_strate p{ color: #666; font-size: 14px; line-height: 24px; text-align: justify;}
+.con_strate .txt_sl h3{ text-align: right;}
+.con_strate .txt_sl p{ text-align: right;}
+.img_strate{ display: block; margin: 0 auto;}
+.con_leader{ width: 100%;}
+.con_leader ul{ width: 100%; overflow: hidden;}
+.con_leader ul li{ width: 150px; color: #333; margin:0 40px 30px 0; float: left;}
+.con_leader ul li:nth-child(5n){ margin-right: 0;}
+.con_leader ul li .leader_photo{ width: 150px; padding: 4px; border: solid 1px #ccc;}
+.con_leader ul li h3{ font-size: 18px; font-weight: 600; text-align: center; margin: 10px auto;}
+.con_leader ul li h4{ font-size: 14px; text-align: center;}
+
+/*鍙戝睍鍘嗙▼*/
+.con_his{ position: relative; width: 850px; height: 1060px; margin: 0 auto; padding: 20px 0;}
+.img_his{ width: 354px; height: 1023px; position: absolute; left: 50%; top: 0; margin-left: -200px;}
+.his_conL{ position: absolute; left: 20px; top: 70px;}
+.item_his{ text-align: right;}
+.item_his h3{ font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #fff; -webkit-text-stroke: 1.2px #0081cc; /*text-shadow:1px 0 #0081cc,0 1px #0081cc,-1px 0 #0081cc,0 -1px #0081cc;*/}
+.item_his p{ font-size: 14px; line-height: 24px;}
+.his_conL .item_his h3,.his_conL .item_his p{ text-align: right;}
+.item_hisL2{ margin-top: 102px;}
+.item_hisL3{ margin-top: 146px;}
+.item_hisL4{ margin-top: 152px;}
+.item_hisL5{ margin-top: 167px; margin-right: 40px;}
+.c_008{ color: #0081CC;}
+.his_conR{ position: absolute; left: 520px; top: 5px;}
+.item_hisR2{ margin-top: 40px;}
+.item_hisR3{ margin-top: 125px;}
+.item_hisR4{ margin-top: 130px;}
+.item_hisR5{ margin-top: 173px; margin-left: 20px;}
+.item_hisR6{ margin-top: 180px; margin-left: 80px;}
